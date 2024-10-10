@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <script src="../../jquery-3.7.1.min.js"></script>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="calculatrice_correction.css">
+    <link rel="stylesheet" href="calculatrice.css">
     <title>Calculatrice</title>
 </head>
 <body>
