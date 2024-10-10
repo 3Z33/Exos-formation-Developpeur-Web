@@ -209,12 +209,12 @@ background-repeat: no-repeat;
 background-position: 10% 60%;
 }
 
-.pic1{background-image: url("./ressources/Images Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");}
-.pic2{background-image: url("./ressources/Images Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");}
-.pic3{background-image: url("./ressources/Images Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");}
-.pic4{background-image: url("./ressources/Images Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");}
-.pic5{background-image: url("./ressources/Images Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");}
-.pic6{background-image: url("./ressources/Images Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");}
+.pic1{background-image: url("./ressources/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg");}
+.pic2{background-image: url("./ressources/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg");}
+.pic3{background-image: url("./ressources/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg");}
+.pic4{background-image: url("./ressources/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg");}
+.pic5{background-image: url("./ressources/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");}
+.pic6{background-image: url("./ressources/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");}
 
 .option-info{
 background-color: rgb(255, 255, 255);
@@ -326,9 +326,9 @@ background-repeat: no-repeat;
 background-position: 50% 60%;
 }
 
-.imga{background-image: url("./ressources/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");}
-.imgb{background-image: url("./ressources/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");}
-.imgc{background-image: url("./ressources/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");}
+.imga{background-image: url("./ressources/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");}
+.imgb{background-image: url("./ressources/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg");}
+.imgc{background-image: url("./ressources/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg");}
 
 
 /* ----------------------- second section -------------------------- */
@@ -380,10 +380,10 @@ font-size: 16px;
 margin-left: 20px;
 }
 
-.picture{background-image: url("./ressources/Images Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");}
-.picture2{background-image: url("./ressources/Images Booki/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");}
-.picture3{background-image: url("./ressources/Images Booki/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");}
-.picture4{background-image: url("./ressources/Images Booki/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");}
+.picture{background-image: url("./ressources/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");}
+.picture2{background-image: url("./ressources/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg");}
+.picture3{background-image: url("./ressources/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");}
+.picture4{background-image: url("./ressources/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg");}
 
 
 /* -------------------------- FOOTER -------------------------- */
