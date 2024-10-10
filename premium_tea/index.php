@@ -2,10 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/style/main.css">
+    <link rel="stylesheet" href="./main.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link rel="stylesheet" href="./assets/style/swiper.css">
-    <script src="./assets/script/swiper.js"></script>
+    <link rel="stylesheet" href="./swiper.css">
+    <script src="./swiper.js"></script>
     <title>PREMIUM TEAS</title>
 </head>
 <body>
@@ -52,6 +52,6 @@
         <div class="swiper-button-next"></div>
     </div>
 
-    <script src="./assets/script/carousel.js"></script>
+    <script src="./carousel.js"></script>
 </body>
 </html>
