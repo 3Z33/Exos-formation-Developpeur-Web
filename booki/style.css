@@ -1,0 +1,504 @@
+html, body{
+margin: 0;
+padding: 0;
+}
+
+header{
+margin: 0 auto 20px auto;
+max-width: 1340px;
+}
+
+#logo-1{
+width: 60px;
+height: 30px;
+padding-top: 44px;
+margin-bottom: 50px;
+}
+
+.top-right-options{
+float: right;
+height: 80px;
+width: 380px;
+display: flex;
+font-family: "Raleway";
+}
+
+.top-right-options a{
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+color: black;
+}
+
+.top-right-options :hover{
+border: 3px solid #0065FC;
+border-right: none;
+border-bottom: none;
+border-left: none;
+color: #0065FC;
+}
+
+.p1{
+font-weight: 700;
+font-size: 22px;
+font-family: "Raleway";
+}
+
+.p2{
+font-family: "Raleway";
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+}
+
+
+/* --------------------- SEARCHBAR ------------------------*/
+
+
+.searchbar{
+background-color:#F2F2F2;
+width: 420px;
+height: 50px;
+display: flex;
+border-radius: 15px;
+margin-bottom: 30px;
+position: relative;
+overflow: hidden;
+}
+
+#looop{
+position: absolute;
+width: 20px;
+height: 20px;
+top: 15px;
+right: 15px;
+opacity: 0;
+}
+
+#searchbar-logo{
+height: 18px;
+position: relative;
+top: 15px;
+left: 20px;
+}
+
+.searchbar input{
+margin-left: 40px;
+width: 230px;
+font-size: 18px;
+font-weight: 700;
+font-family: "Raleway";
+}
+
+.searchbar button{
+position: absolute;
+width: 130px;
+right: 0px;
+height: 100%;
+background-color: #0065FC; 
+border: none;
+font-family: "Raleway";
+color: white;
+font-size: 18px;
+font-weight: 700;
+cursor:pointer;
+}
+
+
+/* ---------------- NAVBAR ----------------- */
+
+
+nav{
+max-width: 914px;
+margin-bottom: 20px;
+display: flex;
+}
+
+nav p{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 18px;
+margin: 26px 35px 0 0;
+}
+
+nav ul{
+display: flex;
+list-style: none;
+height: 100%;
+gap: 40px;
+padding: 0;
+}
+
+nav ul li{
+border: 2px solid #D9D9D9;
+display: flex;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+font-family: "Raleway";
+font-weight: 700;
+font-size: 17px;
+border-radius: 25px;
+gap: 10px; 
+white-space: nowrap;
+height: 50px;
+}
+
+nav ul :hover{
+background-color:#DEEBFF;
+}
+
+.info{
+display: flex;
+align-items: center;
+font-family: "Raleway";
+font-weight: 400;
+font-size: 16px;
+gap: 10px;
+}
+
+nav a{border-radius: 100%;text-decoration: none;color: black;}
+
+
+/* ------------------------------------------ first section : container 1 -------------------------------------- */
+
+
+.sect1{
+display: flex;
+gap: 40px;
+margin: 20px auto 50px auto;
+max-width: 1340px;
+height: 626px;
+}
+
+.container-1{
+background-color:#F2F2F2;
+padding: 42px 40px 42px 40px;
+display: flex;
+flex-wrap: wrap;
+width: 880px;
+justify-content: space-between;
+border-radius: 20px;
+}
+
+.container-1-title{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 22px;
+width: 100%;
+margin: 0;
+}
+
+.option{
+position: relative;
+width: 246px;
+height: 200px;
+border-radius: 20px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.img{
+height: 125px;
+border-radius: 20px 20px 0 0;
+border: 5px solid rgb(255, 255, 255);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: 10% 60%;
+}
+
+.pic1{background-image: url("./ressources/Images Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");}
+.pic2{background-image: url("./ressources/Images Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");}
+.pic3{background-image: url("./ressources/Images Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");}
+.pic4{background-image: url("./ressources/Images Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");}
+.pic5{background-image: url("./ressources/Images Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");}
+.pic6{background-image: url("./ressources/Images Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");}
+
+.option-info{
+background-color: rgb(255, 255, 255);
+position: absolute;
+bottom: 0;
+width: 100%;
+border-radius: 0 0 20px 20px;
+}
+
+.option-name{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 16px;
+line-height: 0;
+margin-left: 16px;
+}
+
+.option-price{
+font-family: "Raleway";
+font-weight: 400;
+font-size: 14px;
+margin-left: 16px;
+}
+
+.stars{
+position: relative;
+bottom: 10px;
+margin-left: 16px;
+}
+
+.more{
+width: 100%;
+font-family: "Raleway";
+font-weight: 700;
+font-size: 18px;
+margin: 0;
+height: 0%;
+}
+
+
+/* ------------------- first section : container 2 ------------------- */
+
+
+.container-2{
+background-color:#F2F2F2;
+align-items: center;
+width: 420px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+border-radius: 20px;
+}
+
+.container-2-title{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 22px;
+display: flex;
+margin-top: 41px;
+width: 85%;
+justify-content: space-between;
+}
+
+.container-2-option{
+width: 343px;
+height: 144px;
+background-color: white;
+border-radius: 20px 20px 20px 20px;
+display: flex;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.container-2-option-info{
+background-color: #ffffff;
+width: 160px;
+height: 100%;
+margin: auto;
+position: relative;
+}
+
+.container-2-option-name{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 16px;
+display: block;
+text-wrap: wrap;
+}
+
+.container-2-option-price{
+font-family: "Raleway";
+font-weight: 400;
+font-size: 14px;
+}
+
+.container-2-option .stars{
+padding: 0;
+margin: 0;
+position: absolute;
+}
+
+.imga{
+width: 137px;
+height: 100%;
+border: 5px solid rgb(255, 255, 255);
+box-sizing: border-box;
+border-radius: 20px 0 0 20px;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: 50% 60%;
+}
+
+.imga{background-image: url("./ressources/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");}
+.imgb{background-image: url("./ressources/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");}
+.imgc{background-image: url("./ressources/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");}
+
+
+/* ----------------------- second section -------------------------- */
+
+
+.sect2{
+max-width: 1340px;
+margin: 0 auto 20px auto;
+}
+
+.sect-2-title{
+position: relative;
+left: 8px;
+}
+
+.sect2 p{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 22px;
+}
+
+.album{
+display: flex;
+justify-content: space-between;
+padding: 0 8px 0 8px;
+gap: 8px;
+}
+
+.card{
+width: 302px;
+height: 445px;
+background-color: #ffffff;
+border-radius: 20px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.picture, .picture2, .picture3, .picture4{
+width: 100%;
+height:90%;
+background-size:cover;
+background-position: 50% 50%;
+border-radius: 20px 20px 0 0;
+}
+
+.card p{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 16px;
+margin-left: 20px;
+}
+
+.picture{background-image: url("./ressources/Images Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");}
+.picture2{background-image: url("./ressources/Images Booki/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");}
+.picture3{background-image: url("./ressources/Images Booki/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");}
+.picture4{background-image: url("./ressources/Images Booki/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");}
+
+
+/* -------------------------- FOOTER -------------------------- */
+
+
+footer div{
+display: flex;
+max-width: 1340px;
+margin: auto;
+background-color: #F2F2F2;
+padding-top: 20px;
+justify-content:space-evenly;
+}
+
+footer ul{
+list-style: none;
+font-family: "Raleway";
+font-weight: 400;
+font-size: 16px;
+padding: 0;
+margin-left: 70px;
+}
+
+footer ul li{
+line-height: 30px;
+}
+
+
+/* -------- tablet ( 1024px )---------- */
+
+
+@media screen and (max-width:1350px){
+.sect1{flex-direction: column;margin-bottom: 50px;height: auto;}
+.container-1{justify-content: center;margin: auto;width: 880px;padding: 0;gap: 30px;}
+.container-2{flex-direction: row;width: 880px;flex-wrap: wrap;justify-content: space-evenly;margin: auto;height: 280px;padding-bottom: 40px;}
+.container-1-title, .more{margin-left: 40px;margin-top: 20px;margin-bottom: 20px;}
+.container-2-option{width: 250px;}
+.container-2-option-info{border-radius: 20px;}
+.container-2-option-name{font-size: 17px;}
+.container-2-title{width:95%;}
+}
+
+@media screen and (max-width:1024px){
+header{padding:0 70px 0 70px;}
+nav{max-width: 800px;}
+.sect2{padding: 0 70px 0 70px;}
+.card{width: 180px;height: 267px;}
+.card p{margin: 0px auto 5px auto;width: 150px;text-align: left;height: 50px;display: flex;align-items: center;}
+.picture, .picture2, .picture3, .picture4{height: 210px;}
+footer div{max-width: 880px;}
+}
+
+@media screen and (max-width:930px){
+header{padding:0 20px 0 20px;}
+nav{flex-wrap: wrap;gap: 0;}
+nav ul{gap: 10px;}
+}
+
+@media screen and (max-width:890px){
+.container-1{width: 90%;}
+.sect1{flex-direction: column-reverse;}
+.container-2{height: auto;width: 375px;gap: 10px;}
+.container-2-option{width: 335px;}
+.container-2-title{width: 85%;}
+}  
+
+@media screen and (max-width:780px){
+.album{flex-wrap: wrap;width: 385px;margin: auto;}
+.sect-2-title{display: block;text-align:center;}
+}
+
+@media screen and (max-width:700px){
+nav ul{flex-wrap: wrap;height: auto;}
+nav ul li{width: 160px;height: 50px;}
+nav ul li{width: 150px; height: 60px;font-size: 11px;}
+}
+
+@media screen and (max-width:580px){
+.container-1{width: 375px;gap: 10px;}
+.option{width: 335px;}
+.container-1-title{margin: 15px 0 15px 20px;}
+.album{margin: auto;justify-content: center;gap: 20px;width: auto;}
+.card{width: 335px; height: 190px;}
+.card p{text-align: left;margin: 0 0 0 20px; width: 240px;}
+.sect2{padding: 0;}
+.sect-2-title{width: 140px;margin:auto;transform: translateX(-120px);}
+.picture, .picture2, .picture3, .picture4{height: 75%}
+footer div{display: unset;}
+footer{background-color: #F2F2F2;}
+footer div{width: 400px;display: block;}
+}
+
+
+/* ----------- mobile ( min : 375px )-------------- */
+
+
+@media screen and (max-width:480px){
+header{margin: 0;padding: 0;}
+.top-right-options{width: 100%;}
+.top-right-options{margin-bottom: 30px;float: none;min-width: 375px;}
+.top-right-options :hover{border: 3px solid #0065FC;border-right: none;border-top: none;border-left: none;color: #0065FC;}
+.searchbar, .p1, .p2, nav, .info{margin-left: 20px;}
+header span{display: flex;justify-content: center;}
+.searchbar button{width: 45px;color: #0065FC;}
+.searchbar{width:335px ;margin: auto;margin-bottom: 20px;}
+#looop{opacity: 1;}
+}
+
+@media screen and (max-width:400px){
+header{padding:0;}
+nav ul{flex-wrap: wrap;min-width: 375px;}
+nav ul li{width: 130px;}
+.p1{width: 300px;margin-left: 20px;height: 50px;}
+.p2{margin-bottom: 40px;margin-left: 20px;}
+.sect2{margin: 0;padding: 0;}
+}
+
+        
